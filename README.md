@@ -1,61 +1,67 @@
-# ASP.NET Core MVC WebApp
-[![C#](https://img.shields.io/badge/Made%20with-C%23-239120.svg)](https://learn.microsoft.com/en-us/dotnet/csharp/)
-[![.NET](https://img.shields.io/badge/.NET-5C2D91.svg)](https://dotnet.microsoft.com/)
-[![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET%20Core-MVC-512BD4.svg)](https://github.com/dotnet/aspnetcore)
+# ASP.NET Core MVC WebApp  
+[![C#](https://img.shields.io/badge/Language-C%23-239120.svg)](https://learn.microsoft.com/en-us/dotnet/csharp/)  
+[![.NET](https://img.shields.io/badge/Framework-.NET-5C2D91.svg)](https://dotnet.microsoft.com/)  
+[![ASP.NET Core MVC](https://img.shields.io/badge/Technology-ASP.NET%20Core%20MVC-512BD4.svg)](https://github.com/dotnet/aspnetcore)
 
 ---
-### This repository contains the assignments for the **ASP.NET Fundamentals** course @ SoftUni
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Getting Started](#getting-started)
-   - [1. Create a New ASP.NET Core MVC Project](#1-create-a-new-aspnet-core-mvc-project)
-   - [2. Add Controllers and Views](#2-add-controllers-and-views)
-   - [3. Configure Routing](#3-configure-routing)
-   - [4. Run the Application](#4-run-the-application)
-4. [Functionalities](#functionalities)
-5. [In addition](#in-addition)
-6. [License](#license)
-7. [Contact](#contact)
+## 📘 About  
+This repository contains the assignments for the **ASP.NET Fundamentals** course @ SoftUni.  
 
-## Introduction
-This guide outlines the process of building an ASP.NET Core MVC application using the Model-View-Controller pattern. Through the completion of this project, you’ll get hands-on experience with creating, configuring, and managing simple MVC applications, all while leveraging the capabilities of the ASP.NET framework.
+---
 
-## Prerequisites
-Before you begin, ensure you have the following installed:
-- .NET 6.0 SDK or later
-- Visual Studio 2022 or Visual Studio Code
+## 📑 Table of Contents  
+1. [📖 Introduction](#introduction)  
+2. [🔧 Prerequisites](#prerequisites)  
+3. [🚀 Getting Started](#getting-started)  
+   - [1️⃣ Create a New ASP.NET Core MVC Project](#1-create-a-new-aspnet-core-mvc-project)  
+   - [2️⃣ Add Controllers and Views](#2-add-controllers-and-views)  
+   - [3️⃣ Configure Routing](#3-configure-routing)  
+   - [4️⃣ Run the Application](#4-run-the-application)  
+4. [⚙️ Functionalities](#functionalities)  
+5. [💡 Additional Resources](#in-addition)  
+6. [📜 License](#license)  
+7. [📬 Contact](#contact)  
 
-## Getting Started
-### 1. Create a New ASP.NET Core MVC Project
-- Open Visual Studio 2022 or Visual Studio Code.
-- Select Create a New Project.
-- Choose ASP.NET Core Web App (Model-View-Controller).
-- Set the project name and directory.
-- Ensure the target framework is set to .NET 6.0 (Long-term support).
-- Click Create to initialize the project.
+---
 
-### 2. Add Controllers and Views
-- In Solution Explorer, right-click on the `Controllers` folder.
-- Select **Add** > **Controller**.
-- Choose **MVC Controller - Empty** and name it `HomeController`.
-- Repeat to add additional controllers as needed.
-- To add views, right-click the `Views` folder, create a subfolder named after the controller, and add a new view file.
+## 📖 Introduction  
+Build an ASP.NET Core MVC application using the Model-View-Controller pattern. This project provides hands-on experience in creating, configuring, and managing simple MVC applications with the ASP.NET framework.  
 
-### 3. Configure Routing
-1. Open either `Startup.cs` or `Program.cs` (depending on your project setup).
-2. Add the following code to ensure proper routing for the MVC application:
+---
 
-   ```csharp
-   app.UseRouting();
-   app.UseEndpoints(endpoints =>
-   {
-       endpoints.MapControllerRoute(
-           name: "default",
-           pattern: "{controller=Home}/{action=Index}/{id?}");
-   });
-   
+## 🔧 Prerequisites  
+Ensure you have:  
+- .NET 6.0 SDK or later  
+- Visual Studio 2022 or Visual Studio Code  
+
+---
+
+## 🚀 Getting Started  
+### 1️⃣ Create a New ASP.NET Core MVC Project  
+- Open Visual Studio 2022 or Visual Studio Code.  
+- Select **Create a New Project**.  
+- Choose **ASP.NET Core Web App (Model-View-Controller)**.  
+- Set the project name and directory.  
+- Target framework: **.NET 6.0 (LTS)**.  
+- Click **Create**.  
+
+### 2️⃣ Add Controllers and Views  
+- Add a controller in the `Controllers` folder:  
+  **Add** > **Controller** > **MVC Controller - Empty**.  
+- Add views in the `Views` folder, matching the controller names.  
+
+### 3️⃣ Configure Routing  
+Set up routing in `Startup.cs` or `Program.cs`:  
+```csharp
+app.UseRouting();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
+```
 This configuration defines the default route pattern where `HomeController` and its `Index` action will be accessed as the default page.
 
 ### 4. Run the Application
