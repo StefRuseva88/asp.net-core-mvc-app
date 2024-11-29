@@ -64,35 +64,35 @@ This configuration defines the default route pattern where `HomeController` and 
 ### 4️⃣ Run the Application
 To start the project, either press `F5` or click on the **Run** button in Visual Studio. Your application should launch in a browser window at `https://localhost:{port}`. Use this link to access the MVC pages you have built.
 
-## Functionalities
-###  Home Page
+## ⚙️ Functionalities
+### 🏠 Home Page
 The **Home Page** is the main entry point of the application. To begin, a specific action needs to be defined within the application to handle requests for this page. In this case, we’ll create an action called Index. Next, a custom view will be added where a welcoming message and simple content will be displayed. The home page will be set as the default landing page, ensuring that it is the first page users see when they visit the application.
 
-### About Page
+### ℹ️ About Page
 An **About Page** provides an opportunity to describe the purpose of the application or give background information about its developers. To create this, a new action is added specifically for the About Page. A corresponding view will be created to house the content. Once the page is set up, a link will be added on the home page to make it easily accessible to users.
 
-### Contact Page
+### 📞 Contact Page
 The **Contact Page** allows users to reach out with their inquiries or comments. To build this page, both an action and a view are created. On this page, a form will be included where users can input their name, email, and a message. Basic validation ensures that users fill in all the required fields before submitting the form, making it a functional and interactive element of the application.
 
-### Navigation Links
+### 🔗 Navigation Links
 To ensure easy access to various parts of the site, navigation links will be added. These links, placed in a shared layout that appears on every page, will guide users to the Home, About, and Contact pages. This common navigation bar enhances the overall user experience by allowing visitors to quickly jump between the different sections of the site.
 
-### "Products Section" 
+### 🛍️ "Products Section" 
 A new **Products Controller** will be introduced to manage product-related pages. This controller will have access to a list of products, each with details such as ID, name, and price. A special model will be created to define these product properties. The controller will be responsible for displaying products on relevant pages.
 
 ### "All Products" Page
 The **All Products Page** is where users can browse through the complete list of products. Multiple viewing options will be available, including the ability to see the list of products in **JSON** format or as **Plain Text**. Users can also download the product list as a text file. Additionally, a search function will be implemented to help users filter through the products, and an alternative URL will be provided to access this page.
 
-### Simple Chat ASP.NET Core MVC App
+### 💬 Simple Chat ASP.NET Core MVC App
 A simple, real-time **Chat Application** will be built within the site. This feature will enable users to send and receive messages instantly, mimicking live communication. A technology such as **SignalR** will be used to manage the real-time message updates, ensuring smooth interaction between users.
 
-### Text Splitter App
+### ✂️ Text Splitter App
 A **Text Splitter** Tool will be developed as part of the app's functionality. This tool takes user input and splits it into smaller parts, such as individual words or sentences. It will be useful for analyzing or processing text in a structured way
 
-### Styling the Pages
+### 🎨 Styling the Pages
 The visual appeal of the site will be improved by adding CSS styles. A `wwwroot` folder will be created to house the necessary style files. These styles will be applied consistently across all pages, ensuring that the site has a cohesive look. The shared layout file will be styled to ensure that common elements, like navigation links, appear uniform on every page.
   
-## In addition
+## 💡 Additional Resources
 For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/)
 
 ## License
