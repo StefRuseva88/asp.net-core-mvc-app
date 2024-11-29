@@ -3,8 +3,6 @@
 [![.NET](https://img.shields.io/badge/.NET-5C2D91.svg)](https://dotnet.microsoft.com/)
 [![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET%20Core-MVC-512BD4.svg)](https://github.com/dotnet/aspnetcore)
 
----
-
 ## 📘 About  
 This repository contains the assignments for the **ASP.NET Fundamentals** course @ SoftUni.  
 
