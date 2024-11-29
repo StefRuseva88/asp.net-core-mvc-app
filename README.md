@@ -16,9 +16,8 @@
    - [4. Run the Application](#4-run-the-application)
 4. [Functionalities](#functionalities)
 5. [In addition](#in-addition)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+6. [License](#license)
+7. [Contact](#contact)
 
 ## Introduction
 This guide outlines the process of building an ASP.NET Core MVC application using the Model-View-Controller pattern. Through the completion of this project, you’ll get hands-on experience with creating, configuring, and managing simple MVC applications, all while leveraging the capabilities of the ASP.NET framework.
