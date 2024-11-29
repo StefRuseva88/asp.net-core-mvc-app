@@ -6,22 +6,6 @@
 [![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET%20Core-MVC-512BD4.svg)](https://github.com/dotnet/aspnetcore)
 
 ---
-
-## 📑 Table of Contents  
-1. [📖 Introduction](#introduction)  
-2. [🔧 Prerequisites](#prerequisites)  
-3. [🚀 Getting Started](#getting-started)  
-   - [1️⃣ Create a New ASP.NET Core MVC Project](#1-create-a-new-aspnet-core-mvc-project)  
-   - [2️⃣ Add Controllers and Views](#2-add-controllers-and-views)  
-   - [3️⃣ Configure Routing](#3-configure-routing)  
-   - [4️⃣ Run the Application](#4-run-the-application)  
-4. [⚙️ Functionalities](#functionalities)  
-5. [💡 Additional Resources](#in-addition)  
-6. [📜 License](#license)  
-7. [📬 Contact](#contact)  
-
----
-
 ## 📖 Introduction  
 Build an ASP.NET Core MVC application using the Model-View-Controller pattern. This project provides hands-on experience in creating, configuring, and managing simple MVC applications with the ASP.NET framework.  
 
