@@ -61,7 +61,7 @@ app.UseEndpoints(endpoints =>
 ```
 This configuration defines the default route pattern where `HomeController` and its `Index` action will be accessed as the default page.
 
-### 4. Run the Application
+### 4️⃣ Run the Application
 To start the project, either press `F5` or click on the **Run** button in Visual Studio. Your application should launch in a browser window at `https://localhost:{port}`. Use this link to access the MVC pages you have built.
 
 ## Functionalities
