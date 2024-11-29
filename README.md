@@ -90,7 +90,7 @@ A **Text Splitter** Tool will be developed as part of the app's functionality. T
 The visual appeal of the site will be improved by adding CSS styles. A `wwwroot` folder will be created to house the necessary style files. These styles will be applied consistently across all pages, ensuring that the site has a cohesive look. The shared layout file will be styled to ensure that common elements, like navigation links, appear uniform on every page.
   
 ## In addition
-For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/).
+For more advanced features and functionalities, refer to the official [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/)
 
 ## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
