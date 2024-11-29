@@ -5,7 +5,6 @@
 
 ## 📘 About  
 This repository contains the assignments for the **ASP.NET Fundamentals** course @ SoftUni.  
-
 ---
 
 ## 📑 Table of Contents  
