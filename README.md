@@ -1,7 +1,7 @@
 # ASP.NET Core MVC WebApp  
-[![C#](https://img.shields.io/badge/Language-C%23-239120.svg)](https://learn.microsoft.com/en-us/dotnet/csharp/)  
-[![.NET](https://img.shields.io/badge/Framework-.NET-5C2D91.svg)](https://dotnet.microsoft.com/)  
-[![ASP.NET Core MVC](https://img.shields.io/badge/Technology-ASP.NET%20Core%20MVC-512BD4.svg)](https://github.com/dotnet/aspnetcore)
+[![C#](https://img.shields.io/badge/Made%20with-C%23-239120.svg)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![.NET](https://img.shields.io/badge/.NET-5C2D91.svg)](https://dotnet.microsoft.com/)
+[![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET%20Core-MVC-512BD4.svg)](https://github.com/dotnet/aspnetcore)
 
 ---
 
