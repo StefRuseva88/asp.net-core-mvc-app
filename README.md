@@ -10,7 +10,6 @@
 Build an ASP.NET Core MVC application using the Model-View-Controller pattern. This project provides hands-on experience in creating, configuring, and managing simple MVC applications with the ASP.NET framework.  
 
 ## 🔧 Prerequisites  
-Ensure you have:  
 - .NET 6.0 SDK or later  
 - Visual Studio 2022 or Visual Studio Code  
 
